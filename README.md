@@ -57,7 +57,7 @@ Response:
 Request:
 
 ```
-curl -H "Authorization: Bearer 3638e92d9af8dc9890c8cb72b86e17b0df40489d" -H "Content-type: application/json" -H "Accept: application/json" -X POST http://localhost:8000/employees -d '{"name": "Person One", "email": "person.one@company.com", "department_id": 1}'
+curl -H "Authorization: Bearer YOUR-AUTH-TOKEN" -H "Content-type: application/json" -H "Accept: application/json" -X POST http://localhost:8000/employees -d '{"name": "Person One", "email": "person.one@company.com", "department_id": 1}'
 ```
 
 Response:
@@ -79,7 +79,7 @@ Response:
 Request:
 
 ```
-curl -H "Authorization: Bearer 3638e92d9af8dc9890c8cb72b86e17b0df40489d" -H "Content-type: application/json" -H "Accept: application/json" -X GET http://localhost:8000/employees
+curl -H "Authorization: Bearer YOUR-AUTH-TOKEN" -H "Content-type: application/json" -H "Accept: application/json" -X GET http://localhost:8000/employees
 ```
 
 Response:
@@ -112,7 +112,7 @@ Response:
 Request:
 
 ```
-curl -H "Authorization: Bearer 3638e92d9af8dc9890c8cb72b86e17b0df40489d" -H "Content-type: application/json" -H "Accept: application/json" -X PATCH http://localhost:8000/employees/2 -d '{"name": "Person Updated"}'
+curl -H "Authorization: Bearer YOUR-AUTH-TOKEN" -H "Content-type: application/json" -H "Accept: application/json" -X PATCH http://localhost:8000/employees/2 -d '{"name": "Person Updated"}'
 ```
 
 Response:
@@ -134,7 +134,7 @@ Response:
 Request:
 
 ```
-curl -H "Authorization: Bearer 3638e92d9af8dc9890c8cb72b86e17b0df40489d" -H "Content-type: application/json" -H "Accept: application/json" -X DELETE http://localhost:8000/employees/13
+curl -H "Authorization: Bearer YOUR-AUTH-TOKEN" -H "Content-type: application/json" -H "Accept: application/json" -X DELETE http://localhost:8000/employees/13
 ```
 
 Empty Response
