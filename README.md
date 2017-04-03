@@ -143,6 +143,12 @@ Empty Response
 
 A complete **documentation of API endpoints** is available at http://localhost:8000/docs/ on your development server. There you also can test API calls and get code examples for Shell, Python and Javascript.
 
+## Testing
+
+```
+$ python manage.py test
+```
+
 ## Requirements
 
 * Python 3.4+
