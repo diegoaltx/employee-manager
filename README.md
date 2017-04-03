@@ -34,7 +34,7 @@ Access http://localhost:8000/admin with superuser credentials. At admin panel yo
 
 Before use API you will need to create an **Auth Token** on Admin Panel.
 
-A complete **documentation of API endpoints** is available at http://localhost:8000/docs/. There you also can test API calls and get code examples for Shell, Python and Javascript.
+A complete **documentation of API endpoints** is available at http://localhost:8000/docs/ on your development server. There you also can test API calls and get code examples for Shell, Python and Javascript.
 
 ### API Examples
 
@@ -141,7 +141,7 @@ Empty Response
 
 ### See more
 
-A complete **documentation of API endpoints** is available at http://localhost:8000/docs/. There you also can test API calls and get code examples for Shell, Python and Javascript.
+A complete **documentation of API endpoints** is available at http://localhost:8000/docs/ on your development server. There you also can test API calls and get code examples for Shell, Python and Javascript.
 
 ## Requirements
 
