@@ -139,6 +139,10 @@ curl -H "Authorization: Bearer 3638e92d9af8dc9890c8cb72b86e17b0df40489d" -H "Con
 
 Empty Response
 
+### See more
+
+A complete **documentation of API endpoints** is available at http://localhost:8000/docs/. There you also can test API calls and get code examples for Shell, Python and Javascript.
+
 ## Requirements
 
 * Python 3.4+
